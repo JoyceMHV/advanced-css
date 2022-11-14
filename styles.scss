@@ -1,0 +1,43 @@
+//Voor deze opdracht vind ik variabelen toepassen weinig meerwaarde hebben. Ik heb dat wel gedaan, omdat dat werd gevraagd. Voor mijn gevoel geeft het nu meer data dan wanneer ik achterwege had gelaten. Mocht ik de meerwaarde van variabelen in deze opdracht niet zien, dan hoor ik dat graag!
+
+@import "./general";
+@import "./variables";
+
+.container {
+    display: block;
+    width: 500px;
+    background-color: $color1;
+    border-radius: 40px;
+    margin: $margin-center;
+    box-shadow: 5px 10px 28px #888;
+    main {
+        padding:  0px 49px;
+        transform: translateY(60px);
+    }
+    img {
+        display: block;         
+        margin: $margin-center;
+        width: 35%;
+        border-radius: 100%;
+        border: 8px solid $color1;
+        transform: translateY(85px);         
+    }
+    footer {
+        background-color: #686de0;
+        border-bottom-left-radius: 40px; 
+        border-bottom-right-radius: 40px;
+        color: $color1;
+        padding: 100px 0px 50px 0px;
+        p { 
+            text-align: center;
+            &:first-child { 
+                text-transform: uppercase;    
+            } 
+            &:last-child {
+                color: #c3cfe2;
+            }
+        }
+    }
+}
+//MEDIAQUERIES
+@import "./mediaqueries";
